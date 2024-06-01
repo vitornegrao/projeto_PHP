@@ -1,0 +1,11 @@
+[01-Jun-2024 18:54:58 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Illuminate\Foundation\Http\Kernel::handle(), 0 passed in C:\Users\Dell\Documents\Code\app_super_gestao\public\index.php on line 51 and exactly 1 expected in C:\Users\Dell\Documents\Code\app_super_gestao\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php:137
+Stack trace:
+#0 C:\Users\Dell\Documents\Code\app_super_gestao\public\index.php(51): Illuminate\Foundation\Http\Kernel->handle()
+#1 C:\Users\Dell\Documents\Code\app_super_gestao\vendor\laravel\framework\src\Illuminate\Foundation\resources\server.php(16): require_once('C:\\Users\\Dell\\D...')
+#2 {main}
+  thrown in C:\Users\Dell\Documents\Code\app_super_gestao\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php on line 137
+[01-Jun-2024 19:18:20 UTC] PHP Warning:  require_once(C:\Users\Dell\Documents\Code\app_super_gestao\publicindex.php): Failed to open stream: No such file or directory in C:\Users\Dell\Documents\Code\app_super_gestao\vendor\laravel\framework\src\Illuminate\Foundation\resources\server.php on line 16
+[01-Jun-2024 19:18:20 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\Dell\Documents\Code\app_super_gestao\publicindex.php' (include_path='.;c:\tools\php8.1\includes') in C:\Users\Dell\Documents\Code\app_super_gestao\vendor\laravel\framework\src\Illuminate\Foundation\resources\server.php:16
+Stack trace:
+#0 {main}
+  thrown in C:\Users\Dell\Documents\Code\app_super_gestao\vendor\laravel\framework\src\Illuminate\Foundation\resources\server.php on line 16
